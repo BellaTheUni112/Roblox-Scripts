@@ -1,4 +1,4 @@
-banned = {"NAMEHERE","OtherPerson"} 
+banned = {"Snowfox524","hamshaj26"} 
 for i,j in pairs(game.Players:GetPlayers()) do 
 for x,y in pairs(banned) do 
 if string.find(string.lower(j.Name),string.lower(y)) then 
